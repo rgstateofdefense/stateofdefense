@@ -1,0 +1,152 @@
+@font-face {
+  font-family: "Bombardment";
+  src: url("../fonts/HEMIHEAD.TTF");
+}
+
+h1
+{
+  color: white;
+
+}
+/*background*/
+body
+{
+    background-color: #111;
+    -webkit-font-smoothing: antialiased;
+    overflow-y:hidden;/*hide scrollbar*/
+    overflow-x:hidden;/*hide scrollbar*/
+    font-family: 'Bombardment';
+    /*mix-blend-mode: exlusion;*/
+
+}
+
+/*base menu background*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-size: 28px;
+    height: 7vh;
+    /*border: 3px solid blue*/
+  }
+  
+  li {
+    float: left;
+    /*border: 3px solid green*/
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor: pointer;
+    /*border: 3px solid red*/
+  }
+  
+  #settingsbutton{
+    padding: 3px 0px;
+    display: flex;
+    margin: auto;
+
+  }
+
+
+
+  /* Change the link color to #111 (black) on hover */
+  /*
+  li a:hover {
+    background-color: #111;
+  }
+*/
+  .topbtn:hover{
+    background-color: #111;
+
+  }
+/* the actual active button*/
+  .active {
+    background-color: #111;
+  }
+
+  .paperactive {
+    background-color: #111;
+  }
+  #custommess{
+    text-align: center;
+    /*border: 3px solid green;*/
+  }
+
+  #canvasdiv{
+    overflow: hidden;
+    /*width: 100vh;*/
+    height: 92vh;
+    position: relative;
+    /*border: 1px solid red*/
+    padding-top : 3px;
+  }
+
+  #layoutLayer{
+    height: 99.5%;
+    width: 100%;
+    position: absolute;
+    opacity : 1;
+    background-color : #00000001;
+    /*border: 1px solid blue*/
+  }
+  #whitepaperLayer{
+    height: 0%;
+    width: 0%;
+    position: absolute;
+    opacity : 0;
+    background-color : #00000001;
+    /*border: 1px solid blue*/
+  }
+
+
+
+/*
+  .container{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    color: white;
+  }
+
+  .content{
+    display: flex;
+    gap: 5em;
+    width: 100%;
+    padding-top: 3em;
+    position: relative;
+
+  }
+  .content:before{
+
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid white;
+    transform: scaleX(1);
+  }  
+    h1{
+        font-size: 4rem;
+        width: 50vw;
+        line-height: 97%;
+        text-align: right;
+    }
+    
+    h1, p{
+        flex-basis: 0;
+        flex-grow: 1;
+        clip-path: polygon(0 0,100% 0,100% 0,0 0); 
+    }
+  */
+  

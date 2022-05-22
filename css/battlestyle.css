@@ -1,0 +1,39 @@
+img {
+    width: 500px;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+body
+{
+    background-color: #111;
+    -webkit-font-smoothing: antialiased;
+    overflow-y:hidden;/*hide scrollbar*/
+    overflow-x:hidden;/*hide scrollbar*/
+    font-family: 'Bombardment';
+    /*mix-blend-mode: exlusion;*/
+
+}
+#instructor{
+
+    text-align: center;
+    color: white;
+}
+#canvasdiv{
+    overflow: hidden;
+    width: 99%;
+    height: 98%;
+    position: absolute;
+    /*border: 1px solid red;*/
+    padding-top : 3px;
+}
+
+
+.selectBox{
+  background-color: rgba(75, 160, 255, 0.3);
+  /*background-color: #00007777;*/
+  border: 2px solid #55aaff;
+  position: absolute;
+}

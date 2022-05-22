@@ -1,0 +1,103 @@
+.wpcontainer {
+  font-family: Arial;
+  float:center;
+  width : 100%;
+  height : 100%;
+  opacity:1;
+  padding : 0px;
+  /*border: 1px solid rgb(255, 0, 191)*/
+}
+.wpheader{
+  position: relative;
+  width: 100%;
+  float: left;
+  padding-top: 2px;
+}
+.wpbody{
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+
+.lefttop {
+  position: relative;
+  float:left;
+  border-top-left-radius: 25px;
+  left: 15%;
+  width: 15%;
+  height: 100%;
+  background-color: rgb(93, 104, 165);
+}
+
+.leftbottom {
+  position: relative;
+  float:left;
+  border-bottom-left-radius: 25px;
+  left: 15%;
+  width: 15%;
+  height:90%;
+  background-color: #eee;
+}
+
+.righttop {
+  position: relative;
+  float:right;
+  border-top-right-radius: 25px;
+  right: 20%;
+  width: 50%;
+  height: 100%;
+  background-color: rgb(64, 53, 170);
+
+}
+.rightbottom {
+  position: relative;
+  float:right;
+  border-bottom-right-radius: 25px;
+  right: 20%;
+  width: 50%;
+  height:90%;
+  background-color: rgb(190, 190, 190);
+}
+
+.vertical-menu a {
+  background-color: #eee; /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.selectable:hover  {
+  background-color: rgb(190, 190, 190); /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+  background-color: #436cc4; /* Add a green color to the "active/current" link */
+  color: white;
+}
+.vertical-menu .whiteactive{
+  background-color: #5f9676;
+
+}
+
+.Titleleft {
+  color: black; 
+  padding-left: 15px;
+}
+
+.vertical-menu {
+  height: 96%;
+  overflow: auto;
+}
+
+.Titleright {
+  color: black;
+  padding-left: 15px;
+}
+
+.Whitedata {
+  position: relative;
+  padding-left: 15px;
+  height: 96%;
+  overflow: auto;
+}

@@ -1,0 +1,221 @@
+body
+{
+    background-color: #111;
+    -webkit-font-smoothing: antialiased;
+    overflow-y:hidden;/*hide scrollbar*/
+    overflow-x:hidden;/*hide scrollbar*/
+    font-family: 'Bombardment';
+    /*
+    background-image: url("/textures/images/green circuit2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 36.5% 110%; 
+
+    background-size: 80% 80%;
+  */    
+    /*mix-blend-mode: exlusion;*/
+
+}
+
+
+  .globalcontainer {
+    position: absolute;
+    font-family: Arial;
+    float:center;
+    width : 100%;
+    height : 100%;
+    opacity:1;
+    padding : 0px;
+    border: 1px solid rgb(255, 0, 191);
+  
+  }
+  .containerheader {
+    position: relative;
+    width: 100%;
+    height: 256px;
+    float: left;
+    padding-top: 2px;
+    /*border: 1px solid rgb(57, 224, 93);*/
+  
+  }
+  .containerbody {
+    width: 100%;
+    height: 55%;
+    float: left;
+    /*border: 1px solid rgb(69, 13, 201);*/
+  }
+  .settingsmenu {
+    /*border: 1px solid rgb(29, 201, 13);*/
+    position: relative;
+
+    width: 512px;
+    height: 100%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+  }
+  .mainmenu {
+   /*border: 1px solid rgb(212, 209, 13);*/
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  .leftmenu {
+    /*border: 1px solid rgb(201, 13, 13);*/
+    position: relative;
+    float:left;
+    left: 0%;
+    width: 59%;
+    height:100%;
+    /*background-color: #eee;*/
+  }
+  .rightmenu {
+    /*border: 1px solid rgb(201, 13, 160);*/
+    position: relative;
+    float:left;
+    width: 40%;
+    height:100%;
+    /*background-color: rgb(190, 190, 190);*/
+  }
+
+
+  #logo {
+    width: 512px;
+    height: 256px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*border: 1px solid rgb(201, 13, 13);*/
+  }
+
+
+
+  
+  .playbutton {
+    position: relative;
+    background-color: #689156;
+    width: 60%;
+    height: 120px;
+    top: 27%;
+    transform: translateY(25%);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*margin-bottom: 10px;*/
+    border: none;
+    border-radius: 12px;
+    border: none;
+    background: #689156 url("/textures/images/play.png") no-repeat  center center;
+    background-size: 50% 50%;
+    background-position-y: 18px; 
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    padding-top:80px;
+    
+    
+  }
+
+  .menubutton {
+    position: relative;
+    
+    width: 70%;
+    height: 20%;
+    transform: translateY(25%);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-right: 25px;
+    border-radius: 12px;
+    border: none;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+  }
+
+  #metaloginbutton {
+    float:right;
+    right: 5%;
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    border: none;
+    background-color: #4b7e35;
+    text-align: center;
+
+    border-radius: 12px;
+  }
+
+  #whitemenu{
+    background-color: #bbc7bc;
+    background: #bbc7bc url("/textures/images/contract.png") no-repeat left center;
+    font-size: 16px;
+    color: rgb(100, 96, 96);
+    text-align: right;
+    
+  }
+  #contactsmenu{
+    background-color: #5268af;
+    background: #7389d3 url("/textures/images/contact2.png") no-repeat left center;
+    font-size: 16px;
+    color: rgb(100, 96, 96);
+    text-align: right;
+
+  }
+  #aboutmenu{
+    background-color: #5268af;
+    background: #48a764 url("/textures/images/contact1.png") no-repeat left center;
+    font-size: 16px;
+    color: rgb(100, 96, 96);
+    text-align: right;
+
+  }
+  #settingsmenu{
+    background-color: #c5b847;
+    background: #c5b847 url("/textures/images/cog.png") no-repeat left center;
+    font-size: 16px;
+    color: rgb(100, 96, 96);
+    text-align: right;
+
+  }
+/*
+
+  #buttonsidemenudiv {
+    border: 1px solid blue;
+    position: relative;
+    float:left;
+    left: 0%;
+    width: 20%;
+    height: 100%;
+
+
+
+  }
+
+
+  .playbutton{
+    width: 300px;
+    height: 200px;
+    text-align: center;
+
+    border-radius: 12px;
+    background-color: #4CAF50; 
+    border: none;
+
+  }
+  .squarebutton {
+    border-radius: 12px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 20px 0px;
+    height:70px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+*/
+  

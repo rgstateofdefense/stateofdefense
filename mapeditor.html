@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>State of defense - map editor</title>
+    <link rel="stylesheet" href="css/mapeditorstyle.css">
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/p5.min.js"></script>
+    <!--<link href="lib/bootstrap-5.1.0-dist/css/bootstrap.min.css" rel="stylesheet">-->
+    <!--<script data-main="js/init.js" src="js/require.js" ></script>-->
+</head>
+
+<body>
+    
+    <div id="globaldiv"> 
+        <div id="canvasdiv">
+            <div id="layoutLayer">
+                <div id="resultlayer"></div>
+                <div id="settingslayer">
+                    <br>
+                    <label  for="field1" class="fieldlabel">Size x:</label>
+                    <input id="xpos" name="xposition" type="number" value="20"/>
+                    <br>
+                    <label for="field2" class="fieldlabel">Size y:</label>
+                    <input id="ypos" name="yposition" type="number" value="20"/>
+                    <br><br>
+                    <button type="button" id="setsizebutton">Set size</button> 
+                    <!--
+                    <br><br>
+                    <button type="button" id="resetbutton">Set</button> 
+                    <br><br>
+                    <button type="button" id="resetbutton">Create</button>
+                    <button type="button" id="resetbutton">delete</button>-->
+                </div>
+                <div id="guidiv"></div>
+                <div id="imagepreview"></div>
+                <div id="buildingtransform"></div>
+        </div>
+        </div>
+        <ul id="menu">
+            <li class="menuli"><a> </a></li>
+            <li class="menuli"><a id="heightgen" class="topbtn">Heightmap</a></li>
+            <li class="menuli"><a id="texturegen" class="topbtn">Texture & normal</a></li>
+            <li class="menuli"><a id="aebuildinggen" class="topbtn">Buildings</a></li>
+            <li class="menuli"><a id="clickmapgen" class="topbtn">Clickplane</a></li>
+            <li class="menuli" style="float:right" id="showresult"><a  class="topbtn" id="aboutbutton">Get result</a></li>
+            <li class="menuli" style="float:right" id="settings"><a  class="topbtn" id="settingsbutton"><img src="./textures/images/settingscog48.png" alt="Settings"></a></li>
+            <li class="menuli" style="float:right" id="switchgrid"><a  class="topbtn" id="settingsbutton"><img src="./textures/images/editor_grid_icon.png" alt="Settings"></a></li>
+        </ul>
+        
+    </div> 
+    <script  type="module" src="js/mapeditor/mapeditor.js"></script>
+</body>
+</html>

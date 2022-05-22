@@ -1,0 +1,106 @@
+
+  .wpcontainer {
+    position: relative;
+    float:center;
+    width : 100%;
+    height : 98%;
+    opacity:1;
+    padding : 5px;
+    /*background-color: rgb(156, 156, 156);*/
+  }
+
+  .split {
+    font-family: Arial;
+    height: 100%;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    perspective: 1px;
+    /*padding-top: 20px;*/
+  }
+  
+  .left {
+    position: relative;
+    float:left;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    left: 15%;
+    width: 15%;
+    background-color: #eee;
+
+  }
+  
+  .right {
+    position: relative;
+    float:right;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    right: 20%;
+    width: 50%;
+    background-color: rgb(190, 190, 190);
+   
+  }
+  #whitedata {
+    padding-left: 15px;
+  }
+
+
+  .vertical-menu {
+    width: 100%; /* Set a width if you like */
+  }
+  
+  .vertical-menu a {
+    background-color: #eee; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .vertical-menu a:hover {
+    background-color: rgb(190, 190, 190); /* Dark grey background on mouse-over */
+  }
+  
+  .vertical-menu a.active {
+    background-color: #436cc4; /* Add a green color to the "active/current" link */
+    color: white;
+  }
+
+  .Titleleft {
+    
+    margin-top: 0;
+    background-color: #444ed3; /* Add a green color to the "active/current" link */
+    color: black;
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    
+  }
+  .Titleright {
+    /*position: absolute;*/
+    margin-top: 0;
+    background-color: #2629e9; /* Add a green color to the "active/current" link */
+    color: black;
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+  }
+  .Titletop {
+    position: relative;
+    background-color: #a7dd29;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    top: 0%;
+    height: 5%;
+  }
+  .Whitedata{
+    position: relative;
+    background-color: #dd29a7;
+    bottom: 0%;
+    height: 90%;
+  }
+
+
+  .vertical-menu .whiteactive{
+    background-color: #5f9676;
+
+  }
+  

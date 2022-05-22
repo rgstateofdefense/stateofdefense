@@ -1,0 +1,19 @@
+body {
+    background-color: #111;
+    -webkit-font-smoothing: antialiased;
+    overflow-y:hidden;/*hide scrollbar*/
+    overflow-x:hidden;/*hide scrollbar*/
+    background-image: url("/textures/images/loadingimage.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+
+  #whitepaperLayer{
+    height: 99%;
+    width: 100%;
+    position: absolute;
+    opacity : 0.93;
+    background-color : #00000001;
+    /*border: 1px solid blue*/
+  }

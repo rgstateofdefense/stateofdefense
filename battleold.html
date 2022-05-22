@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>State of defense</title>
+    <link rel="stylesheet" href="css/battlestyle.css">
+    <!--<link href="lib/bootstrap-5.1.0-dist/css/bootstrap.min.css" rel="stylesheet">-->
+    <!--<script data-main="js/init.js" src="js/require.js" ></script>-->
+</head>
+
+<body>
+    <div id="canvasdiv">
+        <img id="thetank" src="testdata/testtank.png" alt="Tank">
+        <h1 id="instructor">Click on the tank<h1>
+        <div id="layoutLayer"></div>
+    </div>
+    <script>
+        var tank = sessionStorage.getItem('nftholderscreen01');
+        if(tank!=null){
+            var tankpicture = document.getElementById("thetank");
+            tankpicture.src = "testdata/nftcards/"+tank+".png";
+        }
+        else{
+            var parent = document.getElementById("canvasdiv");
+            var child = document.getElementById("instructor");
+            child.innerHTML = "You didn't choose a tank. you will battle with the base tank. Click on the tank.";
+        }
+
+
+        document.getElementById("thetank").addEventListener("click", yourewinner);
+        function yourewinner() {
+            var child1 = document.getElementById("instructor");
+            var child2 = document.getElementById("thetank");
+            var parent = document.getElementById("canvasdiv");
+            parent.removeChild(child1);
+            parent.removeChild(child2);
+            var backlink = document.createElement("a");
+            backlink.href = "index.html";
+            parent.appendChild(backlink);
+            var img = document.createElement("img");
+            img.src = "testdata/yw.png";
+            backlink.appendChild(img);
+        }
+
+    </script>
+
+</body>
+</html>
