@@ -1,8 +1,8 @@
 import * as THREE from 'https:/unpkg.com/three@0.126.1/build/three.module.js'
 import  { GLTFLoader } from 'https:/unpkg.com/three@0.126.1/examples/jsm/loaders/GLTFLoader.js'
-import * as Scenehandler from '/js/scenehandler.js'
-import * as Gamesystem from '../js/3dengine.js'
-import * as loadscene from '../js/load/loadscene.js'
+import * as Scenehandler from './scenehandler.js'
+import * as Gamesystem from './3dengine.js'
+import * as loadscene from './load/loadscene.js'
 const manager = new THREE.LoadingManager();
 const scene = Gamesystem.getscene();
 
