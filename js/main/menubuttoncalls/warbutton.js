@@ -1,6 +1,6 @@
-import * as Scenehandler from '/js/scenehandler.js'
-import * as gamefunctions from '/js/gamefunctions.js'
-import * as animationManager from '/js/animationmanager.js'
+import * as Scenehandler from '../../scenehandler.js'
+import * as gamefunctions from '../../gamefunctions.js'
+import * as animationManager from '../../animationmanager.js'
 
 function initwarpage() {
   gamefunctions.setactualroom("warroom");

@@ -1,4 +1,4 @@
-import * as Scenehandler from '/js/scenehandler.js'
+import * as Scenehandler from '../../scenehandler.js'
 
 function initduelpage() {
     console.log("duelroom got called");

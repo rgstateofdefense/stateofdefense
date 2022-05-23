@@ -1,4 +1,4 @@
-import * as Scenehandler from '/js/scenehandler.js'
+import * as Scenehandler from '../../scenehandler.js'
 
 function initaboutpage(openit) {
     if(openit) Scenehandler.showscene("whitepaper");
