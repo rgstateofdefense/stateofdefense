@@ -1,6 +1,6 @@
 import * as THREE from 'https:/unpkg.com/three@0.126.1/build/three.module.js'
 import { gsap } from 'https://unpkg.com/gsap@3.9.1/gsap-core.js'
-import * as animationManager from '/js/animationmanager.js'
+import * as animationManager from '../../animationmanager.js'
 import * as threeengine from '../../3dengine.js'
 import {enablecontrol, disablecontrol} from  '../../controlhandler.js'
 import {addeventlisteners} from  '../../whitepaperjs/whitepaper.js'
