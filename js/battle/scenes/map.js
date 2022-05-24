@@ -1,10 +1,10 @@
 import * as THREE from 'https:/unpkg.com/three@0.126.1/build/three.module.js'
 import  { SceneUtils } from 'https:/unpkg.com/three@0.126.1/examples/jsm/utils/SceneUtils.js'
 //
-import { perlinnoise } from '/js/modules/perl.js'
-import * as threeengine from '/js/3dengine.js'
-import * as Gameunctions from '/js/gamefunctions.js'
-import {addkeyfunction} from  '/js/controlhandler.js'
+import { perlinnoise } from '../../modules/perl.js'
+import * as threeengine from '../../3dengine.js'
+import * as Gameunctions from '../../gamefunctions.js'
+import {addkeyfunction} from  '../../controlhandler.js'
 const scene = threeengine.getscene();
 
 let perltexture;

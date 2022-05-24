@@ -1,6 +1,6 @@
-import {init3dengine,setcameraposition,setcamerarotation,setcamerafov} from '/js/3dengine.js'
-import * as loadingmanager from '/js/loadingmanager.js'
-//import {addkeyfunction} from  '/js/controlhandler.js'
+import {init3dengine,setcameraposition,setcamerarotation,setcamerafov} from '../3dengine.js'
+import * as loadingmanager from '../loadingmanager.js'
+//import {addkeyfunction} from  '../controlhandler.js'
 init3dengine(false,true);
 
 

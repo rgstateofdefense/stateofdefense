@@ -1,8 +1,8 @@
 import * as THREE from 'https:/unpkg.com/three@0.126.1/build/three.module.js'
-import * as threeengine from '/js/3dengine.js'
-import * as Loadingmanager from '/js/loadingmanager.js'
-import {addonclickrotateobject} from  '/js/controlhandler.js'
-//import {setcameratoobject, movecameratoobject} from  '/js/battle/scenes/controlscene.js'
+import * as threeengine from '../../3dengine.js'
+import * as Loadingmanager from '../../loadingmanager.js'
+import {addonclickrotateobject} from  '../../controlhandler.js'
+//import {setcameratoobject, movecameratoobject} from  '/controlscene.js'
 let mytankidcounter = 0;
 const textureloader = new THREE.TextureLoader();
 

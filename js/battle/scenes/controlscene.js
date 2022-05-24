@@ -4,14 +4,14 @@ import { SelectionBox } from 'https:/unpkg.com/three@0.126.1/examples/jsm/intera
 //import { SelectionHelper } from 'https:/unpkg.com/three@0.126.1/examples/jsm/interactive/SelectionHelper.js'
 
 
-import { SelectionHelper } from '/js/modules/lmselectionhelper.js';
-import  { OrbitControls } from '/js/modules/threeobjorbitcontrol.js'
-import { perlinnoise } from '/js/modules/perl.js'
-import * as threeengine from '/js/3dengine.js'
-import * as Gameunctions from '/js/gamefunctions.js'
-import {addclickfunction,iskeypressed} from  '/js/controlhandler.js'
+import { SelectionHelper } from '../../modules/lmselectionhelper.js';
+import  { OrbitControls } from '../../modules/threeobjorbitcontrol.js'
+import { perlinnoise } from '../../modules/perl.js'
+import * as threeengine from '../../3dengine.js'
+import * as Gameunctions from '../../gamefunctions.js'
+import {addclickfunction,iskeypressed} from  '../../controlhandler.js'
 
-import * as tankmanager from  '/js/battle/scenes/tankmanager.js'
+import * as tankmanager from  './tankmanager.js'
 
 const scene = threeengine.getscene();
 const camera = threeengine.getcamera();

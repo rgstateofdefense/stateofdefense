@@ -1,5 +1,5 @@
 import * as THREE from 'https:/unpkg.com/three@0.126.1/build/three.module.js'
-import * as threeengine from '/js/3dengine.js'
+import * as threeengine from '../../3dengine.js'
 import * as Path from 'https://unpkg.com/pathfinding@0.4.18/visual/lib/pathfinding-browser.min.js'
 //this "speudoserver" is only for the tutorial level. 
 
