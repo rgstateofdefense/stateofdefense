@@ -1,10 +1,10 @@
 import * as THREE from 'https:/unpkg.com/three@0.126.1/build/three.module.js'
 import { gsap } from 'https://unpkg.com/gsap@3.9.1/gsap-core.js'
-import * as animationManager from '/js/animationmanager.js'
-import * as threeengine from '/js/3dengine.js'
-import * as gamefunctions from '/js/gamefunctions.js'
-import * as Loadingmanager from '/js/loadingmanager.js'
-import {addonclickrotateobject} from  '/js/controlhandler.js'
+import * as animationManager from '../../animationmanager.js'
+import * as threeengine from '../../3dengine.js'
+import * as gamefunctions from '../../gamefunctions.js'
+import * as Loadingmanager from '../../loadingmanager.js'
+import {addonclickrotateobject} from  '../../controlhandler.js'
 
 let objsexists = false;
 function sceneexist(){

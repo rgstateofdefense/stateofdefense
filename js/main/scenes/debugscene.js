@@ -1,6 +1,6 @@
 import * as THREE from 'https:/unpkg.com/three@0.126.1/build/three.module.js'
-import * as Loadingmanager from '/js/loadingmanager.js'
-import * as threeengine from '/js/3dengine.js'
+import * as Loadingmanager from '../../loadingmanager.js'
+import * as threeengine from '../../3dengine.js'
 
 async function build(hideit)
 {

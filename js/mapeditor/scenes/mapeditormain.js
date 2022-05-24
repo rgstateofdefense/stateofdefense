@@ -1,19 +1,19 @@
 import * as THREE from 'https:/unpkg.com/three@0.126.1/build/three.module.js'
 import { GUI } from 'https:/unpkg.com/three@0.126.1/examples/jsm/libs/dat.gui.module.js'
-import * as shaderscene from '/js/mapeditor/scenes/renderscene.js'
+import * as shaderscene from '../../mapeditor/scenes/renderscene.js'
 
 
 //const math = require('https://www.unpkg.com/mathjs@10.5.1/lib/browser/math.js')
 //import * as mathjs from 'https://www.unpkg.com/mathjs@10.5.1/lib/browser/math.js'
 //
-import * as Gamefunctions from '/js/gamefunctions.js'
-import * as Scenehandler from '/js/scenehandler.js'
-import * as threeengine from '/js/3dengine.js'
-import * as gamemap from '/js/mapbuilder/map.js'
-import * as tangmanager from '/js/battle/scenes/tankmanager.js'
-import * as Loadingmanager from '/js/loadingmanager.js'
-import { perlinnoise } from '/js/modules/perl.js'
-import {addkeyfunction,addmousebutttonfunction,removemousebutttonfunction} from  '/js/controlhandler.js'
+import * as Gamefunctions from '../../gamefunctions.js'
+import * as Scenehandler from '../../scenehandler.js'
+import * as threeengine from '../../3dengine.js'
+import * as gamemap from '../../mapbuilder/map.js'
+import * as tangmanager from '../../battle/scenes/tankmanager.js'
+import * as Loadingmanager from '../../loadingmanager.js'
+import { perlinnoise } from '../../modules/perl.js'
+import {addkeyfunction,addmousebutttonfunction,removemousebutttonfunction} from  '../../controlhandler.js'
 
 
 const scene = threeengine.getscene();
